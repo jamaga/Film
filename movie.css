@@ -1,0 +1,127 @@
+#header {
+	height: 100px;
+	width: 100%;
+	background-color: #CCFF99;
+}
+
+#footer {
+	height: 100px;
+	width: 100%;
+	background-color: #CCFF99;
+	margin: 0;
+	text-align: center;
+}
+
+#footer p {
+padding-top: 60px;
+margin: 0;
+font-size: 24px;
+}
+
+
+#center {
+	background-color: grey;
+}
+
+body {
+	margin: 0;
+	font-family: Arial;
+	font-size: 20px;
+}
+
+
+#main {
+	margin: 0 auto;
+	width: 1000px;
+	height: 1000px;
+	background-color: #FF9999;
+}
+
+#top {
+	height: 620px;
+	position: relative;
+}
+
+#bottom {
+	height: 300px;
+	width: 940px;
+	background-color: #CCFF99;
+	margin: 30px;
+}
+
+.panel {
+	width: 440px;
+	height: 600px;
+	float: left;
+	background-color: #CCFF99;
+	margin: 30px;
+	position: absolute;
+
+}
+
+#left img {
+	width: 440px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#left {
+	left: 0;
+}
+
+#right {
+	right: 0;
+}
+
+.links li {
+  float: left;
+	list-style-type: none;
+	margin: 0 10px;
+	margin-left: 0;
+}
+
+#header h1 {
+	text-align: center;
+	margin: 0;
+	padding: 30px;
+}
+
+#right h2 {
+	margin-top: 0;
+
+}
+
+p {
+    margin: 1px;
+}
+
+ul {
+	margin: 1px;
+}
+
+.links {
+	margin: 1px;
+	margin-top: 0;
+	padding-left: 0;
+}
+
+.filmy {
+	padding-top: 20px; /*padding zeby margin nie zachodzil pod flotujace elementy*/
+	clear: both;
+
+}
+
+#actors {
+	width: 75px;
+	float: left;
+}
+
+#actors-list {
+	width: 150px;
+	float: left;
+}
+
+li {
+	width: 220px;
+}
+
