@@ -9,18 +9,16 @@ class Planet
       @grid << pusta
     end
   end
+  
   def save_rover_position(x, y)
     @grid[x][y] = 'r'
   end
+
   def remove_rover_position(x, y)
     @grid[x][y] = ''
   end
 
 end
-
-
-kata_planet = Planet.new
-p kata_planet
 
 
 class Rover
@@ -41,12 +39,12 @@ class Rover
 
 end
 
+kata_planet = Planet.new
+
 new_rover = Rover.new(3, 2, 'w', kata_planet)
-p new_rover
 
 new_rover.move
-#p kata_planet
-p new_rover
+
 
 
 
