@@ -43,12 +43,24 @@ class Rover
        @planet.save_rover_position(@x, @y + 1) 
       @y = @y + 1
     end
+
+    if @direction == 'a'
+       @planet.save_rover_position(@x - 1, @y) 
+      @x = @x - 1
+    end
+
+    if @direction == 'd'
+       @planet.save_rover_position(@x + 1, @y) 
+      @x = @x + 1
+    end
+
   end  
+
 end
 
 kata_planet = Planet.new
 
-new_rover = Rover.new(3, 2, 's', kata_planet)
+new_rover = Rover.new(3, 2, 'd', kata_planet)
 
 new_rover.move
 
